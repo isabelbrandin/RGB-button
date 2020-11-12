@@ -21,14 +21,14 @@ void setup() {
 
 void loop() {
  
-  int buttonState;
-  buttonState = digitalRead(buttonPin);
+  // int buttonState;
+  int buttonState = digitalRead(buttonPin);
 
  
   if (buttonState == HIGH) {
     counter = counter + 1;
     Serial.println(counter);
-    delay(150);
+    delay(250);
   }
   
   else if (counter == 0) {
