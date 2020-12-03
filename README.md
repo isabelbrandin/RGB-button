@@ -4,4 +4,4 @@ This is a code that takes a input from a button that makes a RGB-light light in 
 
 ## Circuit Diagram
 
-![circuit](./
+![circuit](./Tremendous Trug)
